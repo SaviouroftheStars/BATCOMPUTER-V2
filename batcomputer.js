@@ -36,18 +36,22 @@ function runAuthenticationSequence() {
 
   setTimeout(function () {
     deviceStatus.textContent = "RECOGNIZED";
+    deviceStatus.classList.add("auth-success");
   }, 500);
 
     setTimeout(function () {
     biometricStatus.textContent = "VERIFIED";
+    biometricStatus.classList.add("auth-success");
   }, 1050);
 
   setTimeout(function () {
     clearanceStatus.textContent = "ALPHA";
+    clearanceStatus.classList.add("auth-success");
   }, 1600);
 
    setTimeout(function () {
     accessStatus.textContent = "GRANTED";
+    accessStatus.classList.add("auth-success");
   }, 2150);
 
   setTimeout(function () {
