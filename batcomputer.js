@@ -53,4 +53,12 @@ function runAuthenticationSequence() {
     const bootSequence = document.getElementById("bootSequence");
     bootSequence.classList.remove("hidden");
   }, 2600);
+
+  setTimeout(function () {
+    const loginScreen = document.getElementById("loginScreen");
+    const archiveScreen = document.getElementByID("archiveScreen");
+
+    loginScreen.classList.add("hidden");
+    archiveScreen.classList.remove("hidden");
+  }, 4000);
 }
