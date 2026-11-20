@@ -1,5 +1,5 @@
-const passwordDisplay = document.getElementById('passwordDisplay");
-const passwordStatus = document.getElementByID("passwordStatus");
+const passwordDisplay = document.getElementById("passwordDisplay");
+const passwordStatus = document.getElementById("passwordStatus");
 const authenticateButton = document.getElementById("authenticateButton");
 
 const passwordLength = 16;
@@ -12,7 +12,7 @@ function typePassword() {
     setTimeout (typePassword,85);
   } else {
     passwordStatus.textContent = "CREDENTIALS ENTERED";
-    autheticateButton.disabled = false;
+    authenticateButton.disabled = false;
   }
 }
 
