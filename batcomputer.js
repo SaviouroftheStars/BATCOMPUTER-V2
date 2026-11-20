@@ -8,7 +8,7 @@ let typedCharacters = 0;
 function typePassword() {
   if (typedCharacters < passwordLength) {
     typedCharacters++;
-    passwordDisplay.textContent = ".".repeat(typedCharacters);
+    passwordDisplay.textContent = "•".repeat(typedCharacters);
     setTimeout (typePassword,85);
   } else {
     passwordStatus.textContent = "CREDENTIALS ENTERED";
