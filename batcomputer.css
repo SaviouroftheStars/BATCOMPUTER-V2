@@ -219,7 +219,7 @@ body {
   color: #e9b75f;
   font-weight: normal;
 }
-.authline strong.auth-success {
+.auth-line strong.auth-success {
   color: #65db94;
 }
 
