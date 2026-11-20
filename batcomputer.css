@@ -135,3 +135,44 @@ body {
 .file-disabled {
   color: #475b68;
 }
+.system-header {
+  min-height: 64px;
+  padding:13px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: #06131f;
+  border-bottom: 1px solid #287fb5;
+}
+
+.brand {
+  color: #b7eff;
+  font-weight: bold;
+  letter-spacing:.18em;
+}
+
+.subbrand,
+.status {
+  margin-top: 4px;
+  color: #58798d;
+  font-size: 12px;
+  letter-spacing: .lem;
+}
+
+.status {
+  text-align: right;
+}
+
+.status span {
+  color: #65db94
+}
+
+.logoff-button {
+  padding: 8px 12px;
+  background-color: #061722;
+  border: 1px solid #235f84;
+  color: #79c9f8;
+  font: bold 11px "Courier New", Courier, monospace;
+  letter-spacing: .11em;
+}
