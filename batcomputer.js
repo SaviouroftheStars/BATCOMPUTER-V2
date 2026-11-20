@@ -60,5 +60,54 @@ function runAuthenticationSequence() {
 
     loginScreen.classList.add("hidden");
     archiveScreen.classList.remove("hidden");
+    renderLogs();
   }, 4000);
 }
+
+const reportDates = {
+  4: "12/05/2014"
+  7: "12/12/2014"
+  19: "01/01/2015"
+  23: "02/08/2015"
+  56: "04/01/2015"
+};
+
+function renderLogs() {
+  const contentArea = document.getElementById("contentArea");
+  let rows = "";
+
+  for (let number = 1; number <= 113; number++) {
+    const fileName = REPORT_$(String(number).padStart(2,"0")}';
+  const date = reportDates[number];
+  const status = date ? "AVAILABLE" : "RESTRICTED";
+
+  rows += '
+    <tr>
+    <td>${fileName}</td>
+  <td>${date || "--/--/----"}</td>
+  <td>${status}</td>
+    </tr>
+  ';
+}
+
+contentArea.innerHTML ='
+  <h1 class="archive-title">EXPEDITION LOGS</h1>
+<p class="archive-meta'>113 FILES | 5 AVAILABLE DURING CURRENT SESSION</p>
+  <table class="file-table"
+<thead>
+  <tr>
+  <th>FILE</th>
+<th>DATE</th>
+<th>STATUS</th>
+  </tr>
+  </thead>
+<tbody>${rows}</tbody>
+  </table>
+';
+}
+
+  
+
+  
+        
+
