@@ -24,6 +24,8 @@ authenticateButton.addEventListener("click", function () {
   authenticateButton.disabled = true;
   loginForm.classList.add("hidden");
   authSequence.classList.remove("hidden");
+  runAuthenticationSequence();
+});
 
 function runAuthenticationSequence() {
   const deviceStatus = document.getElementById("deviceStatus");
