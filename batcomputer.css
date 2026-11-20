@@ -14,3 +14,11 @@ body {
   width: min(520px, 100%);
   text-align: center;
 }
+.login-box {
+  box-sizing:border-box;
+  width: 100%;
+  padding: 24px;
+  text-align: left;
+  background-color:#030b12;
+  border: 1px solid #185b85;
+}
