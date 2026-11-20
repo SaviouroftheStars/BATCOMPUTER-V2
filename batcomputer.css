@@ -91,6 +91,7 @@ body {
 
 .nav-button:hover {
  background-color: #0a2639;
+}
 
   .address {
   flex: 1;
@@ -104,6 +105,12 @@ body {
   text-overflow: ellipsis;
 }
 
+.file-table {
+  width: 100%
+    table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid #174d70;
+}
   .file-table th {
     padding: 9px;
     background-color: #062033;
