@@ -34,7 +34,13 @@ body {
   width: 100%;
   min-height: 44px;
   padding: 12px;
-  background-color: #010407
+  background-color: #010407;
+  border: 1px solid #1c699d;
+  color: #d8efff;
+}
+.login-password-display {
+  color: #9fc9e2
+    letter-spacing: .3em;
 }
 .login-wrap h1 {
   margin: 0;
