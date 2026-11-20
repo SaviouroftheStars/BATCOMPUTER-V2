@@ -90,10 +90,13 @@ body {
 }
 
 .nav-button:hover {
+ background-color: #0a2639;
+
+  .address {
   flex: 1;
   padding: 9px 11px;
   overflow: hidden;
-  background-color: #0a2639;
+  background-color: #01070c;
   border: 1px solid #163f59;
   color: #7694a8;
   font-size: 12px;
