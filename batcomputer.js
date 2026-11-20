@@ -17,3 +17,11 @@ function typePassword() {
 }
 
 setTimeout(typePassword, 650);
+const loginForm = document.getElementbyId("loginForm");
+const authSequence = document.getElementbyId("authSequence");
+
+authenticateButton.addEventListener("click", function () {
+  authenticateButton.disabled = true;
+  loginForm.classList.add("hidden");
+  authSequence.classList.remove("hidden");
+});
