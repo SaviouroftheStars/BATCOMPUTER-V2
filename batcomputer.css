@@ -143,6 +143,19 @@ body {
     border-bottom: 1px solid #102433;
     font-size: 14px;
   }
+.file-table th:nth-child(1) {
+ width: 44%;
+}
+
+.file-table th:nth-child(2) {
+ width: 26%;
+}
+
+.file-table th:nth-child(3) {
+ width: 30%;
+}
+
+  
   .file-open {
     background-color: #06223a;
     color: #8fd5ff
