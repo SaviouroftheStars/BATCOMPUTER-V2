@@ -24,7 +24,7 @@ body {
 }
 .login-box label {
   display:block;
-  margin: 15 px 0 6px;
+  margin: 15px 0 6px;
   color: #5caee5;
   font-size:12px;
   letter-spacing:.12em;
@@ -48,7 +48,24 @@ body {
   color: #58798d;
   font-size: 10px;
   letter-spacing: .12em;
-  text align: center;
+  text-align: center;
 }
-  
+.login-box button {
+  width: 100%
+  margin-top: 24px;
+  padding: 13px;
+  border: 1px solid #36a9f4;
+  background-color: #082136;
+  color: #9ddcff;
+  font-weight: bold;
+  letter-spacing: .11em;
+  cursor:pointer;
+}
+.login-box button:disabled {
+  background-color: #04111c;
+  border-color: #163f59;
+  color: #365568;
+  cursor: default;
+  opacity: .65;
+}
   
