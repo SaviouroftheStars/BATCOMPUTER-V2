@@ -22,3 +22,17 @@ body {
   background-color:#030b12;
   border: 1px solid #185b85;
 }
+.login-box label {
+  display:block;
+  margin: 15 px 0 6px;
+  color: #5caee5;
+  font-size:12px;
+  letter-spacing:.12em;
+}
+.login-display-field {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: 12px;
+  background-color: #010407
+}
