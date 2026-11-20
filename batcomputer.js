@@ -48,5 +48,9 @@ function runAuthenticationSequence() {
    setTimeout(function () {
     accessStatus.textContent = "GRANTED";
   }, 2150);
-  
+
+  setTimeout(function () {
+    const bootSequence = document.getElementById("bootSequence");
+    bootSequence.classList.remove("hidden");
+  }, 2600);
 }
