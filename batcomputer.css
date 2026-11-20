@@ -128,4 +128,10 @@ body {
     border-bottom: 1px solid #102433;
     font-size: 14px;
   }
-  
+  .file-open {
+    background-color: #06223a;
+    color: #8fd5ff
+  }
+.file-disabled {
+  color: #475b68;
+}
