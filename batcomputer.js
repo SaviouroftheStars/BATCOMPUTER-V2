@@ -17,8 +17,8 @@ function typePassword() {
 }
 
 setTimeout(typePassword, 650);
-const loginForm = document.getElementbyId("loginForm");
-const authSequence = document.getElementbyId("authSequence");
+const loginForm = document.getElementById("loginForm");
+const authSequence = document.getElementById("authSequence");
 
 authenticateButton.addEventListener("click", function () {
   authenticateButton.disabled = true;
