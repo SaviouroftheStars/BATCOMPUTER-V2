@@ -76,12 +76,12 @@ body {
 .toolbar {
   display: flex;
   gap: 7px;
-  padding: 9px 12 px;
+  padding: 9px 12px;
   background-color: #04101a;
   border-bottom: 1px solid #185b85;
 }
 
-.nav button {
+.nav-button {
   flex: 0 0 42px;
   border: 1px solid #235f84;
   background-color: #061722;
@@ -93,7 +93,7 @@ body {
   flex: 1;
   padding: 9px 11px;
   overflow: hidden;
-  background-color: #01070c;
+  background-color: #0a2639;
   border: 1px solid #163f59;
   color: #7694a8;
   font-size: 12px;
