@@ -219,4 +219,20 @@ body {
   color: #e9b75f;
   font-weight: normal;
 }
+.authline strong.auth-success {
+  color: #65db94;
+}
+
+.boot-sequence {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid #16445f;
+  color: #69c3f7;
+  font size: 11px;
+  letter-spacing: .1em;
+}
+
+.boot-sequence p {
+  margin: 6px 0;
+}
   
