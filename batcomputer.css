@@ -68,4 +68,8 @@ body {
   cursor: default;
   opacity: .65;
 }
+
+.hidden {
+  display: none;
+}
   
