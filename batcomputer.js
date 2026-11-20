@@ -49,4 +49,4 @@ function runAuthenticationSequence() {
     accessStatus.textContent = "GRANTED";
   }, 2150);
   
-});
+}
