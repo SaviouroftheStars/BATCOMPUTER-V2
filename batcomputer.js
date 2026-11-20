@@ -24,4 +24,27 @@ authenticateButton.addEventListener("click", function () {
   authenticateButton.disabled = true;
   loginForm.classList.add("hidden");
   authSequence.classList.remove("hidden");
+
+function runAuthenticationSequence() {
+  const deviceStatus = document.getElementById("deviceStatus");
+  const biometricStatus = document.getElementById("biometricStatus");
+  const clearanceStatus = document.getElementById("clearanceStatus");
+  const accessStatus = document.getElementById("accessStatus");
+
+  setTimeout(function () {
+    deviceStatus.textContent = "RECOGNIZED";
+  }, 500);
+
+    setTimeout(function () {
+    biometricStatus.textContent = "VERIFIED";
+  }, 1050);
+
+  setTimeout(function () {
+    clearanceStatus.textContent = "ALPHA";
+  }, 1600);
+
+   setTimeout(function () {
+    accessStatus.textContent = "GRANTED";
+  }, 2150);
+  
 });
