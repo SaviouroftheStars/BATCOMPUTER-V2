@@ -106,7 +106,7 @@ body {
 }
 
 .file-table {
-  width: 100%
+  width: 100%;
     table-layout: fixed;
   border-collapse: collapse;
   border: 1px solid #174d70;
