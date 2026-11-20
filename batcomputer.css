@@ -1,7 +1,7 @@
 body {
   background-color:#02070d;
   color:#ffffff;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 .login-screen {
   box-sizing:border-box;
@@ -57,6 +57,7 @@ body {
   border: 1px solid #36a9f4;
   background-color: #082136;
   color: #9ddcff;
+  font: inherit;
   font-weight: bold;
   letter-spacing: .11em;
   cursor:pointer;
@@ -175,4 +176,10 @@ body {
   color: #79c9f8;
   font: bold 11px "Courier New", Courier, monospace;
   letter-spacing: .11em;
+}
+.eyebrow {
+  margin: 10px 0 32px;
+  color: #58798d;
+  font-size: 12px;
+  letter-spacing: .15em;
 }
