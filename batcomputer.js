@@ -12,6 +12,7 @@ function typePassword() {
     setTimeout (typePassword,85);
   } else {
     passwordStatus.textContent = "CREDENTIALS ENTERED";
+    passwordStatus.classList.add("password-ready");
     authenticateButton.disabled = false;
   }
 }
