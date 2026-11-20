@@ -36,3 +36,19 @@ body {
   padding: 12px;
   background-color: #010407
 }
+.login-wrap h1 {
+  margin: 0;
+  color: #8bd3ff;
+  font-size: 28px;
+  letter-spacing: .18em;
+}
+.password-status {
+  min-height: 18px;
+  margin-top: 12px;
+  color: #58798d;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text align: center;
+}
+  
+  
