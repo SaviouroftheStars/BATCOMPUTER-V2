@@ -197,3 +197,26 @@ body {
   font-size: 12px;
   letter-spacing: .15em;
 }
+.auth-sequence {
+  margin: 30 px auto 0;
+  padding: 20 px;
+  background-color: #030b12;
+  border: 1px solid #185b85;
+  text-align: left;
+}
+
+.auth-line {
+  display: flex;
+  justofy-content: space-between;
+  gap: 20px;
+  padding: 6px 0;
+  border-bottom: 1px solid #0d2635;
+  color: #58798d;
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+.auth-line strong {
+  color: #e9b75f;
+  font-weight: normal;
+}
+  
