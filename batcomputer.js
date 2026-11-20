@@ -82,7 +82,7 @@ function renderLogs() {
     const status = date ? "AVAILABLE" : "RESTRICTED";
 
     rows += `
-      <tr>
+      <tr class ="${date ? "file-open" : "file-disabled"}">
         <td>${fileName}</td>
         <td>${date || "--/--/----"}</td>
         <td>${status}</td>
