@@ -56,7 +56,7 @@ function runAuthenticationSequence() {
 
   setTimeout(function () {
     const loginScreen = document.getElementById("loginScreen");
-    const archiveScreen = document.getElementByID("archiveScreen");
+    const archiveScreen = document.getElementById("archiveScreen");
 
     loginScreen.classList.add("hidden");
     archiveScreen.classList.remove("hidden");
